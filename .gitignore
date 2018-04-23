@@ -1,0 +1,8 @@
+.env
+
+www/*
+!www/.keep
+
+docker-entrypoint-initdb.d/dumps/*
+docker-entrypoint-initdb.d/dumps/.keep
+
