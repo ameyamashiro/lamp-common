@@ -1,6 +1,6 @@
 cd /docker-entrypoint-initdb.d/
 
-for file in dumps/*; do
+for file in dumps/*.sql; do
 	filename=$(basename "$file")
 	fname="${filename%.*}"
 	ext="${filename##*.}"
